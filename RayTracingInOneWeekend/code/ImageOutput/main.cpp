@@ -29,6 +29,7 @@ int main() {
 
 	for (int j = image_height - 1; j >= 0; --j)
 	{
+		std::cout << "\rScanlines remining: " << j << ' ' << std::flush;
 		for (int i = 0; i < image_width; ++i)
 		{
 			auto r = double(i) / (image_width - 1);
@@ -47,6 +48,6 @@ int main() {
 	}
 
 	wf.close();
-
+	std::cout << "\nDone!\n";
 
 }
