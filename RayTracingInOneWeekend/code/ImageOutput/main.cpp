@@ -16,6 +16,7 @@ int main() {
 		return 1;
 	}
 
+	//http://paulbourke.net/dataformats/ppm/
 	// write header P6
 	wf.write("P6\n", 3);
 	auto img_width_str = std::to_string(image_width);
