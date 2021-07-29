@@ -14,3 +14,6 @@ https://raytracing.github.io/books/RayTracingInOneWeekend.html
 
 > PPM格式：[PPM/PGM/PBM image files (paulbourke.net)](http://paulbourke.net/dataformats/ppm/)
 
+
+
+基础结构了，可以开始学习理论了
