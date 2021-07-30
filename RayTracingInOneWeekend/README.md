@@ -17,3 +17,15 @@ https://raytracing.github.io/books/RayTracingInOneWeekend.html
 
 
 基础结构了，可以开始学习理论了
+
+
+
+2021-7-30
+
+Ray的方向向量在遍历整个图像的过程中，呈现下面的变化
+
+![ray-vary.png](./attachments/ray-vary.png)
+
+
+
+![blue_white_gradient.png](./attachments/blue_white_gradient.png)
