@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="blue_white_gradient.cpp">
+    <ClCompile Include="normal_sphere.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
