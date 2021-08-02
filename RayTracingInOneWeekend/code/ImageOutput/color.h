@@ -12,11 +12,11 @@ void write_color(std::ofstream &f, Color pixel_color, int samples_per_pixel)
 	auto g = pixel_color.y();
 	auto b = pixel_color.z();
 
-	// divide the color by the number of samples
+	// divide the color by the number of samples and gamma-correct for gamma=2.0.
 	auto scale = 1.0 / samples_per_pixel;
-	r *= scale;
-	g *= scale;
-	b *= scale;
+	r = sqrt(scale*r);
+	g = sqrt(scale* g);
+	b = sqrt(scale * b);
 
 	uint8_t ur = static_cast<uint8_t>(255.999 * clamp(r, 0.0, 0.999));
 	uint8_t ug = static_cast<uint8_t>(255.999 * clamp(g, 0.0, 0.999));
