@@ -42,3 +42,13 @@ Ray的方向向量在遍历整个图像的过程中，呈现下面的变化（�
 **Random In Sphere VS True Lambertian Reflection**
 
 ![true_lambertian_vs_random_sphere.png](./attachments/true_lambertian_vs_random_sphere.png)
+
+
+
+2021-8-3
+
+**Lambertian VS Hemi VS Sphere**
+
+从效果上看，hemi的阴影最黑，因为从取的点的概率分布上来说，取到到越靠近朝上法向量方向的点的概率越大，所以导致更多的光线被上面的球反弹回去，无法反射到人眼中，导致看到的效果越黑。
+
+![lambertian_hemi_sphere.png](./attachments/lambertian_hemi_sphere.png)
