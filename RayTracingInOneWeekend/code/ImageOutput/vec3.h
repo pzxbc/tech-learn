@@ -48,6 +48,11 @@ public:
 		return e[0] * e[0] + e[1] * e[1] + e[2] * e[2];
 	}
 
+	bool near_zero() const {
+		const auto s = 1e-8;
+		return (fabs(e[0] < s) && (fabs(e[1]) < s) && (fabs(e[2]) < s));
+	}
+
 	inline static Vec3 random() {
 		return Vec3(random_double(), random_double(), random_double());
 	}
@@ -113,6 +118,11 @@ inline Vec3 cross(const Vec3 &u, const Vec3 &v)
 inline Vec3 unit_vector(const Vec3 &v)
 {
 	return v / v.length();
+}
+
+inline Vec3 reflect(const Vec3 &v, const Vec3 &n) {
+	// 这里是负号是因为入射光的v在n上的投影是负值，所以需要转换一下
+	return v - 2 * dot(v, n)*n;
 }
 
 Vec3 random_in_unit_sphere() {
