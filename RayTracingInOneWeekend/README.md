@@ -39,3 +39,6 @@ Ray的方向向量在遍历整个图像的过程中，呈现下面的变化（�
 0.5 * (rec.normal + Color(1, 1, 1))
 ```
 
+**Random In Sphere VS True Lambertian Reflection**
+
+![true_lambertian_vs_random_sphere.png](./attachments/true_lambertian_vs_random_sphere.png)
