@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="cattered_reflectance.cpp">
+    <ClCompile Include="glass_always_refracts.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

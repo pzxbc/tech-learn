@@ -123,7 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="cattered_reflectance.cpp" />
+    <ClCompile Include="glass_always_refracts.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="camera.h" />

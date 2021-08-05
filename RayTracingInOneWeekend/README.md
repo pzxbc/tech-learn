@@ -52,3 +52,5 @@ Ray的方向向量在遍历整个图像的过程中，呈现下面的变化（�
 从效果上看，hemi的阴影最黑，因为从取的点的概率分布上来说，取到到越靠近朝上法向量方向的点的概率越大，所以导致更多的光线被上面的球反弹回去，无法反射到人眼中，导致看到的效果越黑。
 
 ![lambertian_hemi_sphere.png](./attachments/lambertian_hemi_sphere.png)
+
+fuzzed metal的原因：真实世界的镜面材质一般不是那么完美，总会存在一些扰动
