@@ -54,3 +54,13 @@ Ray的方向向量在遍历整个图像的过程中，呈现下面的变化（�
 ![lambertian_hemi_sphere.png](./attachments/lambertian_hemi_sphere.png)
 
 fuzzed metal的原因：真实世界的镜面材质一般不是那么完美，总会存在一些扰动
+
+
+
+2021-8-5
+
+
+
+折射定律的学习：https://www.shuxuele.com/physics/refraction.html
+
+有临界角情况的存在，当大于临界角时，是简单的反射
