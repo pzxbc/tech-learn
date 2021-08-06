@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="depth_of_field.cpp">
+    <ClCompile Include="final_scene.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
