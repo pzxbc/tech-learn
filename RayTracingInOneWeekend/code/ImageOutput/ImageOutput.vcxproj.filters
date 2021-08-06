@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="distant_view.cpp">
+    <ClCompile Include="depth_of_field.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

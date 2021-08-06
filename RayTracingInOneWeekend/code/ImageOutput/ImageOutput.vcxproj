@@ -123,7 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="distant_view.cpp" />
+    <ClCompile Include="depth_of_field.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="camera.h" />
